@@ -9,18 +9,26 @@
         table{
             border-collapse: collapse;
         }
-        td{
+        td , th{
             border: 1px solid lightgrey;
             padding: 0px 20px;
         }
     </style>
 </head>
 <body>
-    <!-- table row=<tr></tr>
+    <!-- table header head= <thead> 
+        table head data= <th>
+        table row=<tr></tr>
     table data <td></td>
     table body= <tbody> -->
-<tbody>
-    <table>
+<table>
+    <thead>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Salary</th>
+    </thead>
+    <tbody>
         <tr>
             <td>1</td>
             <td>Name</td>
@@ -51,7 +59,7 @@
             <td>Designation</td>
             <td>salary</td>
         </tr>
-    </table>
-</tbody>    
+    </tbody>
+</table>    
 </body>
 </html>
