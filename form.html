@@ -7,6 +7,56 @@
     <title>Form Document</title>
 </head>
 <body>
-    <form action=""></form>
+    <h1>Special TSC Expo</h1>
+    <form action="">
+        <p>Name: <input type="name" name="name" placeholder="Enter your Name" id="">
+        </p>
+        <p>
+            E-mail: <input type="email" name="email" placeholder="Enter e-mail address" id="">
+        </p>
+        <fieldset>
+            <legend>Select item only one</legend>
+            <p>
+                <label for="item1">
+                    <input type="radio" name="same-item-name" id="item1">Select item 1
+                </label>
+            </p>
+            <p>
+                <label for="item2">
+                    <input type="radio" name="same-item-name" id="item2">Select item 2
+                </label>
+            </p>
+            <p>
+                <label for="item3">
+                    <input type="radio" name="same-item-name" id="item3">Select item 3
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <Legend>Select checkboxItems</Legend>
+            <p>
+                <label for="Checkbox 1">
+                    <input type="checkbox" name="sameName-Checkbox" id="Checkbox 1">Select Checkbox 1
+                </label>
+            </p>
+            <p>
+                <label for="Checkbox 2">
+                    <input type="checkbox" name="sameName-Checkbox" id="Checkbox 2">Select Checkbox 2
+                </label>
+            </p>
+            <p>
+                <label for="Checkbox 3">
+                    <input type="checkbox" name="sameName-Checkbox" id="Checkbox 3">Select Checkbox 3
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            Special instructions
+            <br>
+            <textarea name="special-intruction" id="" cols="80" rows="10" placeholder="Write special Recomendations" class=""></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
 </body>
 </html>
