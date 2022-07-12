@@ -14,3 +14,7 @@ nav li a{
 nav li:hover{
     background-color: darkgoldenrod;
 }
+
+.dropdown{
+    display: none;
+}
